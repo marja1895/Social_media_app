@@ -1,0 +1,25 @@
+{
+  "name": "Social_media_app",
+  "version": "1.0.0",
+  "description": "Social media app, made with MERNG Stack. Small fun project, to better understand GraphQL and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marja1895/Social_media_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marja1895/Social_media_app/issues"
+  },
+  "homepage": "https://github.com/marja1895/Social_media_app#readme",
+  "dependencies": {
+    "apollo-server": "^2.18.2",
+    "graphql": "^15.3.0",
+    "mongoose": "^5.10.9"
+  }
+}
