@@ -1,8 +1,9 @@
 {
-  "name": "Social_media_app",
+  "name": "social_media_app",
   "version": "1.0.0",
   "description": "Social media app, made with MERNG Stack. Small fun project, to better understand GraphQL and MongoDB",
   "main": "index.js",
+  "module": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,7 +20,11 @@
   "homepage": "https://github.com/marja1895/Social_media_app#readme",
   "dependencies": {
     "apollo-server": "^2.18.2",
-    "graphql": "^15.3.0",
+    "esm": "^3.2.25",
+    "graphql": "^14.0.0",
     "mongoose": "^5.10.9"
+  },
+  "devDependencies": {
+    "graphpack": "^1.0.9"
   }
 }
